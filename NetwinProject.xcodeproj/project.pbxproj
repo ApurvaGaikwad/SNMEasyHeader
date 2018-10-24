@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		685371B3215BEDF5005805D6 /* eventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685371B2215BEDF5005805D6 /* eventCell.swift */; };
+		689D15D5215ABAE10059B849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689D15D4215ABAE10059B849 /* AppDelegate.swift */; };
+		689D15D7215ABAE10059B849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689D15D6215ABAE10059B849 /* ViewController.swift */; };
+		689D15DA215ABAE10059B849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689D15D8215ABAE10059B849 /* Main.storyboard */; };
+		689D15DC215ABAE30059B849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 689D15DB215ABAE30059B849 /* Assets.xcassets */; };
+		689D15DF215ABAE30059B849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689D15DD215ABAE30059B849 /* LaunchScreen.storyboard */; };
+		689D15EA215ABAE30059B849 /* NetwinProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689D15E9215ABAE30059B849 /* NetwinProjectTests.swift */; };
+		689D15F5215ABAE30059B849 /* NetwinProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689D15F4215ABAE30059B849 /* NetwinProjectUITests.swift */; };
+		689D1604215ABC200059B849 /* EventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689D1603215ABC200059B849 /* EventVC.swift */; };
+		A2FC7E223C63303BCEB18D2D /* Pods_NetwinProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC5480936364D085F879A0C /* Pods_NetwinProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		689D15E6215ABAE30059B849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689D15C9215ABAE10059B849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689D15D0215ABAE10059B849;
+			remoteInfo = NetwinProject;
+		};
+		689D15F1215ABAE30059B849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 689D15C9215ABAE10059B849 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 689D15D0215ABAE10059B849;
+			remoteInfo = NetwinProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A8769A2B19386C6FBB81C50 /* Pods-NetwinProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetwinProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetwinProject/Pods-NetwinProject.release.xcconfig"; sourceTree = "<group>"; };
+		685371B2215BEDF5005805D6 /* eventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventCell.swift; sourceTree = "<group>"; };
+		689D15D1215ABAE10059B849 /* NetwinProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetwinProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		689D15D4215ABAE10059B849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		689D15D6215ABAE10059B849 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		689D15D9215ABAE10059B849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		689D15DB215ABAE30059B849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		689D15DE215ABAE30059B849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		689D15E0215ABAE30059B849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689D15E5215ABAE30059B849 /* NetwinProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetwinProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		689D15E9215ABAE30059B849 /* NetwinProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetwinProjectTests.swift; sourceTree = "<group>"; };
+		689D15EB215ABAE30059B849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689D15F0215ABAE30059B849 /* NetwinProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetwinProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		689D15F4215ABAE30059B849 /* NetwinProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetwinProjectUITests.swift; sourceTree = "<group>"; };
+		689D15F6215ABAE30059B849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		689D1603215ABC200059B849 /* EventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVC.swift; sourceTree = "<group>"; };
+		D7F85B5BC080AE8EE50691F1 /* Pods-NetwinProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetwinProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetwinProject/Pods-NetwinProject.debug.xcconfig"; sourceTree = "<group>"; };
+		EAC5480936364D085F879A0C /* Pods_NetwinProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetwinProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		689D15CE215ABAE10059B849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FC7E223C63303BCEB18D2D /* Pods_NetwinProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689D15E2215ABAE30059B849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689D15ED215ABAE30059B849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34E2C0D14743B8D3432EB2AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7F85B5BC080AE8EE50691F1 /* Pods-NetwinProject.debug.xcconfig */,
+				5A8769A2B19386C6FBB81C50 /* Pods-NetwinProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52203E7D9A8B5CF16A374013 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5480936364D085F879A0C /* Pods_NetwinProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		689D15C8215ABAE10059B849 = {
+			isa = PBXGroup;
+			children = (
+				689D15D3215ABAE10059B849 /* NetwinProject */,
+				689D15E8215ABAE30059B849 /* NetwinProjectTests */,
+				689D15F3215ABAE30059B849 /* NetwinProjectUITests */,
+				689D15D2215ABAE10059B849 /* Products */,
+				34E2C0D14743B8D3432EB2AA /* Pods */,
+				52203E7D9A8B5CF16A374013 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		689D15D2215ABAE10059B849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				689D15D1215ABAE10059B849 /* NetwinProject.app */,
+				689D15E5215ABAE30059B849 /* NetwinProjectTests.xctest */,
+				689D15F0215ABAE30059B849 /* NetwinProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		689D15D3215ABAE10059B849 /* NetwinProject */ = {
+			isa = PBXGroup;
+			children = (
+				689D1602215ABBFF0059B849 /* ViewControllers */,
+				689D15D4215ABAE10059B849 /* AppDelegate.swift */,
+				689D15D6215ABAE10059B849 /* ViewController.swift */,
+				689D15D8215ABAE10059B849 /* Main.storyboard */,
+				689D15DB215ABAE30059B849 /* Assets.xcassets */,
+				689D15DD215ABAE30059B849 /* LaunchScreen.storyboard */,
+				689D15E0215ABAE30059B849 /* Info.plist */,
+			);
+			path = NetwinProject;
+			sourceTree = "<group>";
+		};
+		689D15E8215ABAE30059B849 /* NetwinProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				689D15E9215ABAE30059B849 /* NetwinProjectTests.swift */,
+				689D15EB215ABAE30059B849 /* Info.plist */,
+			);
+			path = NetwinProjectTests;
+			sourceTree = "<group>";
+		};
+		689D15F3215ABAE30059B849 /* NetwinProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				689D15F4215ABAE30059B849 /* NetwinProjectUITests.swift */,
+				689D15F6215ABAE30059B849 /* Info.plist */,
+			);
+			path = NetwinProjectUITests;
+			sourceTree = "<group>";
+		};
+		689D1602215ABBFF0059B849 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				689D1603215ABC200059B849 /* EventVC.swift */,
+				685371B2215BEDF5005805D6 /* eventCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		689D15D0215ABAE10059B849 /* NetwinProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689D15F9215ABAE30059B849 /* Build configuration list for PBXNativeTarget "NetwinProject" */;
+			buildPhases = (
+				00921AECB5A5E0EE99495693 /* [CP] Check Pods Manifest.lock */,
+				689D15CD215ABAE10059B849 /* Sources */,
+				689D15CE215ABAE10059B849 /* Frameworks */,
+				689D15CF215ABAE10059B849 /* Resources */,
+				97F9A92CF2DE4BFD2CF8E76D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetwinProject;
+			productName = NetwinProject;
+			productReference = 689D15D1215ABAE10059B849 /* NetwinProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		689D15E4215ABAE30059B849 /* NetwinProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689D15FC215ABAE30059B849 /* Build configuration list for PBXNativeTarget "NetwinProjectTests" */;
+			buildPhases = (
+				689D15E1215ABAE30059B849 /* Sources */,
+				689D15E2215ABAE30059B849 /* Frameworks */,
+				689D15E3215ABAE30059B849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689D15E7215ABAE30059B849 /* PBXTargetDependency */,
+			);
+			name = NetwinProjectTests;
+			productName = NetwinProjectTests;
+			productReference = 689D15E5215ABAE30059B849 /* NetwinProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		689D15EF215ABAE30059B849 /* NetwinProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689D15FF215ABAE30059B849 /* Build configuration list for PBXNativeTarget "NetwinProjectUITests" */;
+			buildPhases = (
+				689D15EC215ABAE30059B849 /* Sources */,
+				689D15ED215ABAE30059B849 /* Frameworks */,
+				689D15EE215ABAE30059B849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				689D15F2215ABAE30059B849 /* PBXTargetDependency */,
+			);
+			name = NetwinProjectUITests;
+			productName = NetwinProjectUITests;
+			productReference = 689D15F0215ABAE30059B849 /* NetwinProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		689D15C9215ABAE10059B849 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Apurva Gaikwad";
+				TargetAttributes = {
+					689D15D0215ABAE10059B849 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					689D15E4215ABAE30059B849 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 689D15D0215ABAE10059B849;
+					};
+					689D15EF215ABAE30059B849 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 689D15D0215ABAE10059B849;
+					};
+				};
+			};
+			buildConfigurationList = 689D15CC215ABAE10059B849 /* Build configuration list for PBXProject "NetwinProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 689D15C8215ABAE10059B849;
+			productRefGroup = 689D15D2215ABAE10059B849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				689D15D0215ABAE10059B849 /* NetwinProject */,
+				689D15E4215ABAE30059B849 /* NetwinProjectTests */,
+				689D15EF215ABAE30059B849 /* NetwinProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		689D15CF215ABAE10059B849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689D15DF215ABAE30059B849 /* LaunchScreen.storyboard in Resources */,
+				689D15DC215ABAE30059B849 /* Assets.xcassets in Resources */,
+				689D15DA215ABAE10059B849 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689D15E3215ABAE30059B849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689D15EE215ABAE30059B849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00921AECB5A5E0EE99495693 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetwinProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97F9A92CF2DE4BFD2CF8E76D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NetwinProject/Pods-NetwinProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetwinProject/Pods-NetwinProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		689D15CD215ABAE10059B849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685371B3215BEDF5005805D6 /* eventCell.swift in Sources */,
+				689D1604215ABC200059B849 /* EventVC.swift in Sources */,
+				689D15D7215ABAE10059B849 /* ViewController.swift in Sources */,
+				689D15D5215ABAE10059B849 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689D15E1215ABAE30059B849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689D15EA215ABAE30059B849 /* NetwinProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689D15EC215ABAE30059B849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689D15F5215ABAE30059B849 /* NetwinProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		689D15E7215ABAE30059B849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689D15D0215ABAE10059B849 /* NetwinProject */;
+			targetProxy = 689D15E6215ABAE30059B849 /* PBXContainerItemProxy */;
+		};
+		689D15F2215ABAE30059B849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 689D15D0215ABAE10059B849 /* NetwinProject */;
+			targetProxy = 689D15F1215ABAE30059B849 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		689D15D8215ABAE10059B849 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689D15D9215ABAE10059B849 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		689D15DD215ABAE30059B849 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689D15DE215ABAE30059B849 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		689D15F7215ABAE30059B849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		689D15F8215ABAE30059B849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		689D15FA215ABAE30059B849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F85B5BC080AE8EE50691F1 /* Pods-NetwinProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTFUBNL2GH;
+				INFOPLIST_FILE = NetwinProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Apurva.NetwinProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		689D15FB215ABAE30059B849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8769A2B19386C6FBB81C50 /* Pods-NetwinProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTFUBNL2GH;
+				INFOPLIST_FILE = NetwinProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Apurva.NetwinProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		689D15FD215ABAE30059B849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTFUBNL2GH;
+				INFOPLIST_FILE = NetwinProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Apurva.NetwinProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetwinProject.app/NetwinProject";
+			};
+			name = Debug;
+		};
+		689D15FE215ABAE30059B849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTFUBNL2GH;
+				INFOPLIST_FILE = NetwinProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Apurva.NetwinProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetwinProject.app/NetwinProject";
+			};
+			name = Release;
+		};
+		689D1600215ABAE30059B849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTFUBNL2GH;
+				INFOPLIST_FILE = NetwinProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Apurva.NetwinProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetwinProject;
+			};
+			name = Debug;
+		};
+		689D1601215ABAE30059B849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NTFUBNL2GH;
+				INFOPLIST_FILE = NetwinProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Apurva.NetwinProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetwinProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		689D15CC215ABAE10059B849 /* Build configuration list for PBXProject "NetwinProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689D15F7215ABAE30059B849 /* Debug */,
+				689D15F8215ABAE30059B849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689D15F9215ABAE30059B849 /* Build configuration list for PBXNativeTarget "NetwinProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689D15FA215ABAE30059B849 /* Debug */,
+				689D15FB215ABAE30059B849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689D15FC215ABAE30059B849 /* Build configuration list for PBXNativeTarget "NetwinProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689D15FD215ABAE30059B849 /* Debug */,
+				689D15FE215ABAE30059B849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689D15FF215ABAE30059B849 /* Build configuration list for PBXNativeTarget "NetwinProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689D1600215ABAE30059B849 /* Debug */,
+				689D1601215ABAE30059B849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 689D15C9215ABAE10059B849 /* Project object */;
+}
